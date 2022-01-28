@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <style>
+        body {
+            /* 
+            background-color: cyan;
+            background-color: rgb(243, 133, 44);
+            background-color: #123D3A;
+            */
+            background-color: #123D3A;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+        }
+
+        #general {
+            color: yellow;
+        }
+
+        .video-intro {
+            width: 50%;
+        }
+
+        h2 {
+            background-color: orange;
+            width: 50%;
+            border: 3px solid red;
+            margin-left: 100px;
+            padding: 100px 200px;
+        }
+
+        img {
+            border-radius: 30px;
+            margin-left: 620px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table, th, td {
+            border: 3px dashed white;
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 50%;
+            /* height: 150px; */
+        }
+
+        th, td {
+            line-height: 40px;
+        }
+
+        .link-data {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lam Duc Long's Portfolio</h1>
+
+    <img src="./image/Profile Picture.jpg" height="350" alt="My profile" title="My profile">
+
+    <h2>Intro video</h2>
+    <video class="video-intro" width="1000" src="./video/y2mate.com - How to Give a 60 Second SelfIntroduction Presentation_1080p.mp4"
+        controls></video>
+
+    <iframe class="video-intro" width="560" height="315" src="https://www.youtube.com/embed/5v-wyR5emRw" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <h2 id="general">General Information</h2>
+    <h3>Name:</h3>
+    <p><i>Lâm Đức Long</i></p>
+
+    <h3>Age</h3>
+    <p><mark>18</mark></p>
+
+    <h3>Job</h3>
+    <p>In<sub>str</sub>uc<sup>tor</sup></p>
+
+    <h3>Address</h3>
+    <p><del>Ho Chi Minh City</del></p>
+
+    <h3>Email</h3>
+    <p><small>longlamduc@gmail.com</small></p>
+
+    <h3>Phone number</h3>
+    <p><ins>0987654321</ins></p>
+
+    <h3>Gender</h3>
+    <p>Male</p>
+
+    <!-- Tuổi
+    Nghề nghiệp
+    Địa chỉ
+    Email
+    Số điện thoại
+    Giới tính -->
+
+    <hr>
+    <br>
+    <h2>Work Experience</h2>
+    <!-- ul ~ unordered list -->
+    <ul>
+        <!-- li ~ list item -->
+        <li>Software Developer</li>
+        <li>Instructor</li>
+        <li>Freelancer</li>
+    </ul>
+
+    <hr>
+    <br>
+    <h2>Achievements</h2>
+    <!-- ol ~ ordered list -->
+    <ol>
+        <li>Best Instructor of the year</li>
+        <li>Best Software Developer of the year</li>
+    </ol>
+
+    <hr>
+    <br>
+    <h2>Interest</h2>
+
+    <hr>
+    <br>
+    <h2>Favorite songs</h2>
+
+    <hr>
+    <br>
+    <h2>Contact</h2>
+    <!-- a ~ anchor tag -->
+    <!-- href ~ hyperlink reference -->
+    <!-- <a href="https://learn.codegym.vn/members/lam-long/">View my profile on learn.codegym.vn</a> -->
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Channel</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Trang learn</td>
+            <td class="link-data"><a href="#">https://learn.codegym.vn/members/lam-long/</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>gmail</td>
+            <td class="link-data"><a href="#">longlamduc@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Zalo</td>
+            <td class="link-data"><a href="#">0968107527</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>
