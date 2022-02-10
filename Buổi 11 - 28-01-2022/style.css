@@ -10,16 +10,19 @@ body {
 header {
   height: 10%;
   width: 100%;
+  position: fixed;
+  background-color: white;
 }
 
 .section-1 {
   height: 90%;
   width: 100%;
+  padding-top: 50px;
 }
 
 .section-2 {
-  background-color: darkolivegreen;
-  height: 70%;
+  background-color: #006845;
+  height: 65%;
   width: 100%;
 }
 
@@ -76,6 +79,22 @@ header button {
     color: #565A63;
     font-weight: 700;
     line-height: 22px;
+}
+
+.section-2 h2{
+  float: left;
+  width: 35%;
+  margin-left: 200px;
+  color: white;
+  margin-top: 10%;
+}
+
+.section-2 img {
+  float: left;
+  height: 100%;
+  position: relative;
+  left: 20px;
+  top: 50px;
 }
 
 
