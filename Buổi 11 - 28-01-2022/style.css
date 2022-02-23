@@ -12,6 +12,7 @@ header {
   width: 100%;
   position: fixed;
   background-color: white;
+  border-bottom: 1px solid darkgray;
 }
 
 .section-1 {
